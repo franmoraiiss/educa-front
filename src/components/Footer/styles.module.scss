@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+
+  .educa {
+    margin-left: 5rem;
+    max-width: 35%;
+
+    .title {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    p, span {
+      color: #777777;
+    }
+  }
+
+  .resources {
+    margin-right: 5rem;
+  }
+
+  .actions {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    a {
+      margin-bottom: 1rem;
+      color: #777777;
+    }
+  }
+
+  .title {
+    font-weight: bold;
+  }
+}
+

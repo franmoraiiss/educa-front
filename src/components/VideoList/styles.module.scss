@@ -1,0 +1,34 @@
+.videoList {
+  max-width: 500px;
+  max-height: 450px;
+
+  overflow: auto;
+
+  background-color: #0A2640;
+  border-radius: 1.5rem;
+  color: #fff;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }  
+}
+
+.title {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;    
+}
+
+.description {
+  display: block;
+  font-size: .8rem;
+  font-weight: 400;  
+  margin-bottom: 1rem;
+  color: #e1e1e1;
+}
+
+.titleList {
+  font-size: 1rem;
+  font-weight: 500;
+}
