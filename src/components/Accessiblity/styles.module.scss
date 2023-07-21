@@ -1,0 +1,21 @@
+.container {
+  background-color: #11FF88;
+  position: fixed;
+  right: 0;
+  top: 35%;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  button {
+    margin: .5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+}

@@ -6,9 +6,7 @@ interface VideoPlayerProps {
 
 const VideoPlayer: React.FC<VideoPlayerProps> = ({ url }) => {
   return (
-    <video className={styles.video} controls>
-      <source src={url} type="video/mp4"></source>
-    </video>
+    <iframe className={styles.video} src={url} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen/>
   );
 }
 

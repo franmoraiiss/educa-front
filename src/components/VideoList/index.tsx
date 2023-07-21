@@ -16,8 +16,11 @@ const VideoList: React.FC<VideoListProps> = ({ list }) => {
       <hr />     
       {list.map((item) => (
         <a href={item.url}>
-          <span className={styles.title}>{item.title}</span>
-          <span className={styles.description}>{item.description}</span>
+          <img src={`https://img.youtube.com/vi/${item.id}/maxresdefault.jpg`} />
+          <div>
+            <span className={styles.title}>{item.title}</span>
+            <span className={styles.description}>{item.description}</span>
+          </div>
         </a>
       ))}
     </div>

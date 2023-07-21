@@ -11,6 +11,18 @@
   a {
     text-decoration: none;
     color: #fff;
+
+    display: flex;
+    
+    img {
+      height: 6rem;
+    }
+
+    margin-bottom: 1rem;
+
+    &:hover {
+      opacity: 0.4;
+    }
   }  
 }
 
@@ -29,6 +41,8 @@
 }
 
 .titleList {
+  display: block;
   font-size: 1rem;
   font-weight: 500;
+  padding-top: .5rem;  
 }
